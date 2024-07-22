@@ -8,7 +8,7 @@ import 'package:iqchallenges/core/blocobserve/blocobserve.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  Gemini.init(apiKey: 'AIzaSyBOo1xvH2V8Ot6JsabeAUohAl-V9-vCMZI');
+  Gemini.init(apiKey: 'SET-API-KEY');
   Bloc.observer = MyBlocObserver();
   await CacheHelper.init();
   await DioApp.init();
